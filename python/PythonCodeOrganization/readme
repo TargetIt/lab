@@ -1,0 +1,14 @@
+
+1. subroutine
+2. class
+	how to define?
+	how to use?
+3. module
+	how to import module?
+		import a as b
+		from a import functional
+		from a import *
+	where to import module?
+		current dir of excuted script
+		standard lib installed path
+		env PYTHONPATH of os
