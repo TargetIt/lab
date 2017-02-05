@@ -1,0 +1,17 @@
+# IPython log file
+
+get_ipython().magic(u'time x=10')
+get_ipython().magic(u'time x=100')
+get_ipython().magic(u'time x=1000')
+get_ipython().magic(u'time x=10000')
+get_ipython().magic(u'time x=100000')
+get_ipython().magic(u'pinfo %time')
+get_ipython().magic(u'time')
+get_ipython().magic(u'time')
+get_ipython().magic(u'logstart ')
+get_ipython().magic(u'logstart')
+get_ipython().magic(u'logstart ')
+get_ipython().magic(u'time x=10')
+get_ipython().magic(u'logstate')
+get_ipython().magic(u'log')
+get_ipython().magic(u'logstop')
